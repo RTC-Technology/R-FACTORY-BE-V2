@@ -1,0 +1,162 @@
+{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "rtc_factory_oeeContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "MinimumProductVersion": "2.6.0",
+   "ModelNamespace": null,
+   "OutputContextPath": "Context",
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "R_FACTORY_BE.Models",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "areas",
+         "ObjectType": 0
+      },
+      {
+         "Name": "departments",
+         "ObjectType": 0
+      },
+      {
+         "Name": "factories",
+         "ObjectType": 0
+      },
+      {
+         "Name": "form_and_function",
+         "ObjectType": 0
+      },
+      {
+         "Name": "form_and_function_group",
+         "ObjectType": 0
+      },
+      {
+         "Name": "lines",
+         "ObjectType": 0
+      },
+      {
+         "Name": "machine_downtime_events",
+         "ObjectType": 0
+      },
+      {
+         "Name": "machine_status_logs",
+         "ObjectType": 0
+      },
+      {
+         "Name": "machine_types",
+         "ObjectType": 0
+      },
+      {
+         "Name": "machines",
+         "ObjectType": 0
+      },
+      {
+         "Name": "menu",
+         "ObjectType": 0
+      },
+      {
+         "Name": "model_machine_cycle_times",
+         "ObjectType": 0
+      },
+      {
+         "Name": "models",
+         "ObjectType": 0
+      },
+      {
+         "Name": "organizations",
+         "ObjectType": 0
+      },
+      {
+         "Name": "permissions",
+         "ObjectType": 0
+      },
+      {
+         "Name": "planned_downtime_schedules",
+         "ObjectType": 0
+      },
+      {
+         "Name": "planned_downtime_types",
+         "ObjectType": 0
+      },
+      {
+         "Name": "production_output_logs",
+         "ObjectType": 0
+      },
+      {
+         "Name": "production_plans",
+         "ObjectType": 0
+      },
+      {
+         "Name": "role_permissions",
+         "ObjectType": 0
+      },
+      {
+         "Name": "roles",
+         "ObjectType": 0
+      },
+      {
+         "Name": "shifts",
+         "ObjectType": 0
+      },
+      {
+         "Name": "unplanned_downtime_reasons",
+         "ObjectType": 0
+      },
+      {
+         "Name": "user_group",
+         "ObjectType": 0
+      },
+      {
+         "Name": "user_group_link",
+         "ObjectType": 0
+      },
+      {
+         "Name": "user_group_right_distribution",
+         "ObjectType": 0
+      },
+      {
+         "Name": "user_roles",
+         "ObjectType": 0
+      },
+      {
+         "Name": "users",
+         "ObjectType": 0
+      },
+      {
+         "Name": "zones",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}
