@@ -1,4 +1,4 @@
-namespace R_FACTORY_BE.DTOs;
+namespace R_FACTORY_BE.Models.DTOs;
 
 public sealed record OeeFilterDto(
     int FactoryId,

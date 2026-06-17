@@ -119,3 +119,4 @@ src/.vs/config/applicationhost.config
 # Custom
 appsettings.json
 appsettings.Development.json
+R_FACTORY_BE/Files/layouts

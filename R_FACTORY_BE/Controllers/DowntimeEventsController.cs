@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using R_FACTORY_BE.DTOs;
+using R_FACTORY_BE.Models.DTOs;
 using R_FACTORY_BE.Models.Models;
 using R_FACTORY_BE.Repositories;
 
