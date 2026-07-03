@@ -22,17 +22,13 @@ public static class RepoDbMappings
         Map<MachineType>("machine_types");
         Map<Model>("models");
         Map<ModelMachineCycleTime>("model_machine_cycle_times");
-        Map<Permission>("permissions");
         Map<PlannedDowntimeSchedule>("planned_downtime_schedules");
         Map<PlannedDowntimeType>("planned_downtime_types");
         Map<ProductionOutputLog>("production_output_logs");
         Map<ProductionPlan>("production_plans");
-        Map<Role>("roles");
-        Map<RolePermission>("role_permissions");
         Map<Shift>("shifts");
         Map<UnplannedDowntimeReason>("unplanned_downtime_reasons");
         Map<User>("users");
-        Map<UserRole>("user_roles");
 
         initialized = true;
     }

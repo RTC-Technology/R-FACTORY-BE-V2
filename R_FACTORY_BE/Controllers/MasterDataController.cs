@@ -5,6 +5,8 @@ using R_FACTORY_BE.Repositories;
 
 namespace R_FACTORY_BE.Controllers;
 
+// DEPRECATED - kept as fallback for any resource not yet migrated to a dedicated
+// controller under Controllers/MasterData/. Prefer the per-resource controllers.
 [ApiController]
 [Route("api/master-data/{resource}")]
 public sealed class MasterDataController(IGenericRepo repo) : ControllerBase
@@ -25,8 +27,8 @@ public sealed class MasterDataController(IGenericRepo repo) : ControllerBase
         ["machine-status-logs"] = typeof(MachineStatusLog),
         ["departments"] = typeof(Department),
         ["users"] = typeof(User),
-        ["roles"] = typeof(Role),
-        ["permissions"] = typeof(Permission)
+        ["form-and-function-groups"] = typeof(FormAndFunctionGroup),
+        ["form-and-functions"] = typeof(FormAndFunction)
     };
 
     [HttpGet]

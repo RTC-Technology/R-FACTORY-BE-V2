@@ -1,18 +1,21 @@
-{
+﻿{
    "CodeGenerationMode": 4,
    "ContextClassName": "rtc_factory_oeeContext",
    "ContextNamespace": null,
    "FilterSchemas": false,
    "IncludeConnectionString": false,
-   "MinimumProductVersion": "2.6.0",
+   "IrregularWords": null,
+   "MinimumProductVersion": "2.6.1604",
    "ModelNamespace": null,
    "OutputContextPath": "Context",
    "OutputPath": "Models",
+   "PluralRules": null,
    "PreserveCasingWithRegex": true,
    "ProjectRootNamespace": "R_FACTORY_BE.Models",
    "Schemas": null,
    "SelectedHandlebarsLanguage": 2,
    "SelectedToBeGenerated": 0,
+   "SingularRules": null,
    "T4TemplatePath": null,
    "Tables": [
       {
@@ -72,10 +75,6 @@
          "ObjectType": 0
       },
       {
-         "Name": "permissions",
-         "ObjectType": 0
-      },
-      {
          "Name": "planned_downtime_schedules",
          "ObjectType": 0
       },
@@ -92,11 +91,7 @@
          "ObjectType": 0
       },
       {
-         "Name": "role_permissions",
-         "ObjectType": 0
-      },
-      {
-         "Name": "roles",
+         "Name": "refresh_tokens",
          "ObjectType": 0
       },
       {
@@ -120,7 +115,7 @@
          "ObjectType": 0
       },
       {
-         "Name": "user_roles",
+         "Name": "user_permissions",
          "ObjectType": 0
       },
       {
@@ -158,5 +153,6 @@
    "UseSchemaNamespaces": false,
    "UseSpatial": false,
    "UseT4": false,
-   "UseT4Split": false
+   "UseT4Split": false,
+   "UseTypedTvpParameters": true
 }
